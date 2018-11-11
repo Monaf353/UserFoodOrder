@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical">
+
+
+           &lt;!&ndash; <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginBottom="35dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="35dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/deshecommerceapp" />&ndash;&gt;
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ordergethappy" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHAKRABARTTY'S"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="U S E R"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="55dp"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_gravity="center_horizontal|center_vertical|center"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal">
+
+        <info.hoang8f.widget.FButton
+            android:layout_weight="1"
+            android:id="@+id/btnsign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            app:fButtonColor="@color/colorPrimary"
+            app:shadowEnabled="true"
+            app:shadowHeight="3dp"
+            app:cornerRadius="3dp"
+            app:shadowColor="@android:color/black"/>
+
+        <info.hoang8f.widget.FButton
+            android:layout_weight="1"
+            android:id="@+id/btnregister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            app:fButtonColor="@color/btnSignUp"
+            app:shadowEnabled="true"
+            app:shadowHeight="3dp"
+            app:cornerRadius="3dp"
+            app:shadowColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <!-- <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:src="@drawable/developedby" />-->
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+

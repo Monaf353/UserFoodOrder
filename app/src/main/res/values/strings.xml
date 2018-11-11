@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">User</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_idd">458682484559784</string>
+
+    <string name="facebook_login_protocol_name">fb458682484559784</string>
+
+    <string name="forgotPassword"><u>Forgot password?</u></string>
+</resources>
